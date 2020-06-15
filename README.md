@@ -9,6 +9,7 @@ Para isso, a tabela REGISTRO_DIARIO_COVID19 irá armazenar o número de pessoas 
 ![Modelo](modelo.png)
 
 Algumas dicas importantes:
+
 ● A chave primária das tabelas podem ser auto incrementadas pelo SGBD;
 
 ● Os atributos com prefixo QTD_ devem ser, obrigatoriamente, do tipo INTEGER;
