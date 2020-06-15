@@ -54,7 +54,7 @@ INSERT INTO EXEMPLO(DATA) VALUES ('2020- 05 - 22');
     do município que possui mais casos confirmados. Para calcular a porcentagem, utilize o seguinte
     cálculo: QTD_CASOS / QTD_POPULACAO * 100:
     
-## Motivação
+## Código .sql
     
  ```
     CREATE DATABASE COVID;
