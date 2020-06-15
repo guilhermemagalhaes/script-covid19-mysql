@@ -10,14 +10,18 @@ Para isso, a tabela REGISTRO_DIARIO_COVID19 irá armazenar o número de pessoas 
 
 Algumas dicas importantes:
 ● A chave primária das tabelas podem ser auto incrementadas pelo SGBD;
+
 ● Os atributos com prefixo QTD_ devem ser, obrigatoriamente, do tipo INTEGER;
+
 ● O atributo chamado DATA deve ser do tipo DATE.
 
 ### 2.Etapa) Criação dos Dados 
 
 ● 10 estados. Obrigatório que esteja na lista: São Paulo, Rio de Janeiro e Amazonas;
+
 ● 20 cidades (relacionado entre os estados). Obrigatório que esteja na lista: São Paulo, Rio de
 Janeiro e Manaus;
+
 ● 60 registros diários de COVID, para diferentes dias e cidades. Mantenha algumas cidades sem registros (pelo menos duas).
 Dica: Para informar um valor válido para o campo DATA, utilize a seguinte sintaxe no MySQL: AAAA-MM-DD. 
 
